@@ -1,0 +1,362 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 2000px;
+    background-image: url(images/bg3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.add{
+   font-size: 35px;
+   padding: 0px;
+   text-align: center;
+   text-decoration: none;
+   background-color: #db6649;
+   color: white;
+   height: 60px;
+   width: 60px;
+   border-radius: 50px;
+   z-index: 1;
+   float: right;
+   position: fixed;
+   right: 70px;
+   bottom: 70px;
+}
+.add a{
+    text-decoration: none;
+    color: white;
+}
+.dropdown-item{
+    width: max-content;
+    position: absolute;
+    right: 0px;
+    margin-top:5px;
+    display: none;
+    line-height: 5px;
+    overflow: auto;
+    height: 300px;
+}
+.dropdown-item a{
+    display: block;
+}
+.dropdown-item-list{
+    background-color: #f1b8aa;
+}
+.dropdown:hover .dropdown-item{
+    display: block;
+}
+
+#left {
+    float: left;
+    color: black;
+
+}
+.logo {
+    width: 400px;
+  padding-top: 0px;
+  padding-left: 60px;
+}
+#right {
+    float: right;
+    padding-top: 55px;
+    padding-right: 10px;
+}
+nav{
+    height: 90px;
+    background-color:white;
+}
+
+.menu{
+    float: right;
+    padding: 20px;
+    padding-top: 35px;
+    padding-left: 350px;
+}
+.menu>ul{
+    list-style: none;
+}
+.menu>ul>li{
+    display: inline-block;
+}
+.menu a{
+    text-decoration: none;
+    color:black;
+    font-size: 22px;
+    padding: 50px 11px;
+}
+.menu a:hover{
+    color: #FF8264 ;
+}
+.carousel-item{
+    height: 600px;
+}
+.background{
+    background-image: url(images/background.jpg);
+    background-attachment: fixed;
+}
+
+.heading{
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    color: #db6649;
+    font-weight: lighter;
+    font-size: 80px;
+    padding-top: 50px;
+}
+ .heading p {
+        overflow: hidden;
+        text-align: center;
+       }
+       .heading p:before,
+       .heading p:after {
+        background-color: #FF8264;
+        content: "";
+        display: inline-block;
+        height: 1px;
+        position: relative;
+        vertical-align: middle;
+        width: 20%;
+
+       }
+       .heading p:before {
+        right: 0.5em;
+        margin-left: -50%;
+        color: #FF8264;
+       
+       }
+       .heading p:after {
+        left: 0.5em;
+        margin-right: -50%;
+         color: #FF8264;
+       }
+
+      
+#carouselControls{
+    padding-top: 60px;
+}
+.blog-image{
+    width: 35%;
+    float: right;
+    border-radius: 25px;
+    margin-right: 130px;
+}
+.txt {
+    padding-left: 160px;
+    padding-top: 60px;
+    padding-right: 620px;
+}
+.blog-text a {
+    font-size: 42px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.btn-a{
+    background-color: #76e1c6;;
+}
+.btn-b{
+    background-color: #87c6e3;
+}
+.btn-c{
+    background-color: #e6bf7e;
+}  
+.btn-d{
+    background-color: #f0a9a9;;
+} 
+.btn-e{
+    background-color: #fce2ce;
+}
+.btn-f{
+    background-color: #ffcda3;
+}
+.trending{
+    padding: 100px;
+}
+.topic{
+    font-size:40px ;
+    font-weight: bold;
+    color: #eb5833;
+}
+.row{
+    padding-top: 40px;
+}
+.topic-col{
+    height: 350px;
+    width: 350px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin: 20px;
+   background-color: white;
+   border-radius: 15px;
+   
+}
+.topic-col:hover{
+    box-shadow: 0 0 10px #ccc
+    
+}
+.topic-col h5{
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+   
+}
+.topic-col h5 a {
+    text-decoration: none;
+    color: black;
+}
+.topic-col h5 a:hover{
+    color: #FF8264 ;
+}
+.img-fluid{
+    width: 350px;
+    height: 220px;
+    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.btn-topic{
+    position:relative;
+    bottom: 200px;
+    left: 15px;
+   
+}
+.editor{
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.new-trend{
+    color: #db6649;
+    font-size: 20px;
+    text-align: center;
+}
+.recent{
+    width:520px ;
+    height: 450px ;
+    margin: 30px;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+.articles{
+    width: 520px ;
+    height: 300px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.recent h5 a {
+    text-decoration: none;
+    color: black;
+}
+.recent h5{
+    padding: 20px;
+    padding-top: 0px;
+   
+    line-height: 30px;
+}
+.recent:hover{
+    box-shadow: 0 0 20px #ccc
+}
+.recent h5 a:hover{
+    color: #FF8264 ;
+}
+.date{
+    color: rgb(196, 192, 192);
+    padding: 5px;
+    padding-left: 10px;
+}
+.news-letter{
+    padding : 150px;
+  
+}
+.news-letter h3{
+   color: rgb(158, 150, 150);
+
+}
+.letter{
+    float: left;
+
+}
+.sketch{
+    float: right;
+}
+.send{
+    height: 40px;
+    width: 40px;
+}
+.form-control{
+    width: 400px;
+    height: 50px;
+}
+.news-letter form{
+  padding-top: 50px;
+}
+.sub{
+    position: relative;
+    left: 420px;
+    bottom: 50px;
+    height: 50px;
+    background-color: black;
+}
+.foot{
+    height: 100px;
+    background-color: black;
+    margin-top: 250px;
+    bottom: 10px;
+    z-index: 1;
+    position: sticky;
+    bottom: 0px;
+}
+.foot-logo{
+    height: 80px;
+    width: 400px;
+    padding-left: 50px;
+    padding-top: 10px;
+    float: left;
+}
+.home{
+   float: right;
+   padding-top: 30px;
+   padding-right: 70px;
+}
+.home a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    
+   
+}
+.home a img{
+    height: 40px;
+    width: 40px;
+}
+
+
+/* css */
+.travel h1,h2,h3{
+   padding:40px 80px ;
+ 
+   font-family: monospace;
+}
+
+.travel p,ol {
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-bottom: 40px;
+   font-size: 20px;
+}
+.travel-image{
+    width: 100%;
+    height: 550px;
+    padding: 50px;
+    padding-top: 10px;
+  
+    
+
+
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&amp;family=Montserrat&amp;family=Sacramento&amp;display=swap" rel="stylesheet">
+    <title>Blog Website</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <style>
+       body{
+            height: 400px;
+        }
+        .center-content{
+            text-align: center;
+            width: max-content;
+            margin: 0 auto;
+            
+        }
+      .center-content p{
+        font-family:  'Sacramento', cursive;
+        font-size: 70px;
+        padding-top: 80px;
+        line-height: 10px;
+        color: #db6649;
+      }
+      
+      .contact{
+          width: 300px;
+          border-radius: 5px;
+      }
+      .fname{
+          font-family: 'Sacramento', cursive;
+          font-size: 40px;
+      }
+      .btn{
+          background-color: #db6649;
+          border: #db6649;
+      }
+      .btn:hover{
+          background-color:  #db6649;
+      }
+    </style>
+       
+</head>
+<body>
+
+<!-- nav-bar   -->
+ <nav  class="navbar navbar-expand-sm sticky-top ">
+       <div id="left"><img class="logo" src="images/newlogo.png" alt=""></div>
+       <div class='menu'>
+        <ul>
+            <li><a href='index.html'>Home</a></li>
+            <li class="dropdown">
+              <a href=''>Categories</a>
+            <div class="dropdown-item">
+              <div class='dropdown-item-list'>
+                <a href='travel.html'>Travel</a>
+                <a href='lifestyle.html'>Lifestyle</a>
+                <a href="music.html">Music</a>
+                <a href="topic2.html">Health</a>
+                <a href="topic3.html">Food</a>
+                <a href="topic6.html">Book</a>
+            </div>
+            </div></li>
+            <li><a href=''>About Us</a></li>
+            <li><a href='contact.html'>Contact Us</a></li>
+            <li><a href='add.html'>Write</a></li>
+           </ul>
+    </div>
+    </nav>
+    <!-- contact us -->
+     <div class="center-content">
+        <p>Post Blog</p>
+       
+        <form id="post-form" method="post" action="add.html" role="form">
+
+        
+            <div class="controls">
+        
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label class="fname" for="title_name">Title*</label>
+                            <input id="form_name" type="text" name="name" class="contact"  required="required" data-error="Title is required.">
+                           
+                        </div>
+                    </div>
+                    
+                </div>
+               
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label class="fname" for="form_message">Blog *</label>
+                            <textarea id="form_message" name="message" class="contact"  rows="10" required="required" ></textarea>
+                        
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="submit" class="btn btn-success btn-send" value="Post">
+                    </div>
+                </div>
+               
+            </div>
+        
+        </form>
+    
+        
+    </div>
+    
+    
+
+
+
+
+    <section >
+        <footer class="foot">
+          <img class="foot-logo" src="images/newlogo-bg-black.jpg" alt="">
+           <div class="home" >
+            <a href=""><img src="images/facebook.png" alt=""></a>
+            <a href=""><img src="images/instagram.png" alt=""></a>
+            <a href=""><img src="images/twitter.png" alt=""></a>
+         </div>
+        </footer>
+      </section>
+      
+      </body>
+      
+      </html>
+
